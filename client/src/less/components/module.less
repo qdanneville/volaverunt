@@ -1,0 +1,38 @@
+.module {
+    position: relative;
+    max-width: 250px;
+    height: 100%;
+
+    &.yellow {
+        &:after {
+            .bg-yellow;
+        }
+    }
+
+    &.green {
+        &:after {
+            .bg-green;
+        }
+    }
+
+    &.salmon {
+        &:after {
+            .bg-salmon;
+        }
+    }
+
+    &:after {
+        content: '';
+
+        position: absolute;
+
+        width: 50%;
+        height: 90%;
+
+        top: 0;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+
+        z-index: 1;
+    }
+}

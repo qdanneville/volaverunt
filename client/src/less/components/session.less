@@ -1,0 +1,25 @@
+.did-answer {
+    .answer {
+        // transform: scale(0.9) !important;
+        opacity: 0.3;
+        user-select: none;
+
+        &:hover {
+
+            &:not(.active) {
+                background-color: white !important;
+                transform: scale(1) !important;
+                color: @dark !important;
+            }
+        }
+    }
+}
+
+.answer {
+    &.active {
+        background-color: @yellow !important;
+        transform: scale(1) !important;
+        color: @dark !important;
+        opacity: 1;
+    }
+}

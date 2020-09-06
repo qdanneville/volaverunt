@@ -1,0 +1,37 @@
+{
+  "name": "Volaverunt",
+  "version": "1.0.0",
+  "description": "React - Axios - Local storage - Auth - Front - Parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://QuentinDanneville@github.com/qdanneville/volaverunt.git"
+  },
+  "author": "Qdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdanneville/volaverunt/issues"
+  },
+  "homepage": "https://github.com/qdanneville/volaverunt#readme",
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.4.0",
+    "axios": "^0.19.2",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "less": "^3.11.1"
+  }
+}
